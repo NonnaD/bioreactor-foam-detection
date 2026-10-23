@@ -222,6 +222,7 @@ bioreactor-foam-detection/
 │   └── generation.log                     generation run log
 ├── docs/images/                           README figures
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -289,3 +290,9 @@ Set `RUN_MODE` in Section 2, then run **Kernel → Restart Kernel and Run All Ce
 - **Starting over:** the plan is locked once images exist. To regenerate with a different seed, prompts or
   design, set `ARCHIVE_EXISTING_RUN = True` and run the notebook once. This moves `data/` and `metadata/`
   into `archive/run_<timestamp>/` without deleting anything. Then set it back to `False`.
+
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE).
