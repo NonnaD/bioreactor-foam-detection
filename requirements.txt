@@ -1,0 +1,10 @@
+# Phase 1 — synthetic dataset generation (Python 3.11+)
+openai>=3.0
+pillow>=10.0
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+
+# Notebook environment
+jupyterlab>=4.0
+ipykernel>=6.0

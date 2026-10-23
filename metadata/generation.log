@@ -1,0 +1,228 @@
+17:36:54 | INFO    | Project root: /Users/nonna/Desktop/nola-bio/bioreactor-foam-detection
+17:37:26 | INFO    | Reference image: prototype.webp (1448x1086) → output size 1536x1152
+17:40:10 | INFO    | Saved generation plan → metadata/generation_plan.csv
+17:40:10 | INFO    | Plan valid: 100 images, 60 scenarios, 60 unique liquid conditions.
+17:41:14 | INFO    | Saved validation report → metadata/validation_report.csv
+17:45:34 | INFO    | Project root: /Users/nonna/Desktop/nola-bio/bioreactor-foam-detection
+17:45:34 | INFO    | Reference image: prototype.webp (1448x1086) → output size 1536x1152
+17:45:34 | INFO    | Generation plan matches generation_plan.csv.
+17:45:34 | INFO    | Plan valid: 100 images, 60 scenarios, 60 unique liquid conditions.
+17:45:54 | INFO    | OpenAI client initialized (key loaded from hidden prompt).
+17:45:54 | INFO    | Generating 4 image(s) sequentially | model=gpt-image-2 size=1536x1152 quality=low
+17:46:09 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+17:46:09 | INFO    | [  1/4] img_0001 train      no_foam       ✓ | 1 attempt(s), 15s | dataset 1/100 | est. cost this run $0.25
+17:46:23 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+17:46:23 | INFO    | [  2/4] img_0016 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 2/100 | est. cost this run $0.50
+17:46:40 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+17:46:40 | INFO    | [  3/4] img_0031 train      moderate_foam ✓ | 1 attempt(s), 16s | dataset 3/100 | est. cost this run $0.75
+17:46:54 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+17:46:54 | INFO    | [  4/4] img_0046 train      heavy_foam    ✓ | 1 attempt(s), 13s | dataset 4/100 | est. cost this run $1.00
+17:46:55 | INFO    | Saved validation report → metadata/validation_report.csv
+20:54:37 | INFO    | Project root: /Users/nonna/Desktop/nola-bio/bioreactor-foam-detection
+20:54:37 | INFO    | Reference image: prototype.webp (1448x1086) → output size 1536x1152
+20:54:37 | INFO    | Generation plan matches generation_plan.csv.
+20:54:37 | INFO    | Plan valid: 100 images, 60 scenarios, 60 unique liquid conditions.
+20:54:41 | INFO    | OpenAI client initialized (key loaded from hidden prompt).
+20:54:42 | INFO    | Generating 96 image(s) sequentially | model=gpt-image-2 size=1536x1152 quality=low
+20:54:42 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 401 Unauthorized"
+20:54:42 | ERROR   | Run stopped: Authentication failed — check your OpenAI API key.
+20:54:42 | INFO    | Saved validation report → metadata/validation_report.csv
+20:55:05 | INFO    | Project root: /Users/nonna/Desktop/nola-bio/bioreactor-foam-detection
+20:55:05 | INFO    | Reference image: prototype.webp (1448x1086) → output size 1536x1152
+20:55:05 | INFO    | Generation plan matches generation_plan.csv.
+20:55:05 | INFO    | Plan valid: 100 images, 60 scenarios, 60 unique liquid conditions.
+20:55:08 | INFO    | OpenAI client initialized (key loaded from hidden prompt).
+20:55:08 | INFO    | Generating 96 image(s) sequentially | model=gpt-image-2 size=1536x1152 quality=low
+20:55:22 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:55:22 | INFO    | [  1/96] img_0002 train      no_foam       ✓ | 1 attempt(s), 14s | dataset 5/100 | est. cost this run $0.25
+20:55:34 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:55:34 | INFO    | [  2/96] img_0003 train      no_foam       ✓ | 1 attempt(s), 11s | dataset 6/100 | est. cost this run $0.50
+20:55:48 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:55:48 | INFO    | [  3/96] img_0004 train      no_foam       ✓ | 1 attempt(s), 14s | dataset 7/100 | est. cost this run $0.75
+20:56:04 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:56:05 | INFO    | [  4/96] img_0005 train      no_foam       ✓ | 1 attempt(s), 15s | dataset 8/100 | est. cost this run $1.00
+20:56:16 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:56:16 | INFO    | [  5/96] img_0006 train      no_foam       ✓ | 1 attempt(s), 11s | dataset 9/100 | est. cost this run $1.25
+20:56:30 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:56:30 | INFO    | [  6/96] img_0007 train      no_foam       ✓ | 1 attempt(s), 13s | dataset 10/100 | est. cost this run $1.50
+20:56:44 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:56:44 | INFO    | [  7/96] img_0008 train      no_foam       ✓ | 1 attempt(s), 13s | dataset 11/100 | est. cost this run $1.75
+20:56:59 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:57:00 | INFO    | [  8/96] img_0009 train      no_foam       ✓ | 1 attempt(s), 14s | dataset 12/100 | est. cost this run $2.00
+20:57:13 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:57:14 | INFO    | [  9/96] img_0010 train      no_foam       ✓ | 1 attempt(s), 13s | dataset 13/100 | est. cost this run $2.25
+20:57:27 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:57:27 | INFO    | [ 10/96] img_0011 train      no_foam       ✓ | 1 attempt(s), 13s | dataset 14/100 | est. cost this run $2.50
+20:57:42 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:57:42 | INFO    | [ 11/96] img_0012 train      no_foam       ✓ | 1 attempt(s), 14s | dataset 15/100 | est. cost this run $2.75
+20:57:58 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:57:58 | INFO    | [ 12/96] img_0013 train      no_foam       ✓ | 1 attempt(s), 15s | dataset 16/100 | est. cost this run $3.00
+20:58:12 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:58:12 | INFO    | [ 13/96] img_0014 train      no_foam       ✓ | 1 attempt(s), 13s | dataset 17/100 | est. cost this run $3.25
+20:58:26 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:58:26 | INFO    | [ 14/96] img_0015 train      no_foam       ✓ | 1 attempt(s), 13s | dataset 18/100 | est. cost this run $3.50
+20:58:40 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:58:41 | INFO    | [ 15/96] img_0017 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 19/100 | est. cost this run $3.75
+20:58:51 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:58:51 | INFO    | [ 16/96] img_0018 train      minimal_foam  ✓ | 1 attempt(s), 10s | dataset 20/100 | est. cost this run $4.00
+20:59:09 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:59:10 | INFO    | [ 17/96] img_0019 train      minimal_foam  ✓ | 1 attempt(s), 17s | dataset 21/100 | est. cost this run $4.25
+20:59:24 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:59:24 | INFO    | [ 18/96] img_0020 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 22/100 | est. cost this run $4.50
+20:59:37 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:59:37 | INFO    | [ 19/96] img_0021 train      minimal_foam  ✓ | 1 attempt(s), 12s | dataset 23/100 | est. cost this run $4.75
+20:59:50 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+20:59:51 | INFO    | [ 20/96] img_0022 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 24/100 | est. cost this run $5.00
+21:00:06 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:00:06 | INFO    | [ 21/96] img_0023 train      minimal_foam  ✓ | 1 attempt(s), 14s | dataset 25/100 | est. cost this run $5.25
+21:00:20 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:00:21 | INFO    | [ 22/96] img_0024 train      minimal_foam  ✓ | 1 attempt(s), 14s | dataset 26/100 | est. cost this run $5.50
+21:00:34 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:00:35 | INFO    | [ 23/96] img_0025 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 27/100 | est. cost this run $5.75
+21:00:49 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:00:49 | INFO    | [ 24/96] img_0026 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 28/100 | est. cost this run $6.00
+21:01:03 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:01:03 | INFO    | [ 25/96] img_0027 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 29/100 | est. cost this run $6.25
+21:01:17 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:01:17 | INFO    | [ 26/96] img_0028 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 30/100 | est. cost this run $6.50
+21:01:31 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:01:32 | INFO    | [ 27/96] img_0029 train      minimal_foam  ✓ | 1 attempt(s), 14s | dataset 31/100 | est. cost this run $6.75
+21:01:46 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:01:46 | INFO    | [ 28/96] img_0030 train      minimal_foam  ✓ | 1 attempt(s), 13s | dataset 32/100 | est. cost this run $7.00
+21:02:00 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:02:00 | INFO    | [ 29/96] img_0032 train      moderate_foam ✓ | 1 attempt(s), 13s | dataset 33/100 | est. cost this run $7.25
+21:02:13 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:02:14 | INFO    | [ 30/96] img_0033 train      moderate_foam ✓ | 1 attempt(s), 13s | dataset 34/100 | est. cost this run $7.50
+21:02:27 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:02:27 | INFO    | [ 31/96] img_0034 train      moderate_foam ✓ | 1 attempt(s), 12s | dataset 35/100 | est. cost this run $7.75
+21:02:42 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:02:43 | INFO    | [ 32/96] img_0035 train      moderate_foam ✓ | 1 attempt(s), 14s | dataset 36/100 | est. cost this run $8.00
+21:02:59 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:02:59 | INFO    | [ 33/96] img_0036 train      moderate_foam ✓ | 1 attempt(s), 16s | dataset 37/100 | est. cost this run $8.25
+21:03:12 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:03:12 | INFO    | [ 34/96] img_0037 train      moderate_foam ✓ | 1 attempt(s), 12s | dataset 38/100 | est. cost this run $8.50
+21:03:26 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:03:27 | INFO    | [ 35/96] img_0038 train      moderate_foam ✓ | 1 attempt(s), 13s | dataset 39/100 | est. cost this run $8.75
+21:03:39 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:03:40 | INFO    | [ 36/96] img_0039 train      moderate_foam ✓ | 1 attempt(s), 13s | dataset 40/100 | est. cost this run $9.00
+21:03:52 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:03:53 | INFO    | [ 37/96] img_0040 train      moderate_foam ✓ | 1 attempt(s), 11s | dataset 41/100 | est. cost this run $9.25
+21:04:06 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:04:06 | INFO    | [ 38/96] img_0041 train      moderate_foam ✓ | 1 attempt(s), 13s | dataset 42/100 | est. cost this run $9.50
+21:04:19 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:04:19 | INFO    | [ 39/96] img_0042 train      moderate_foam ✓ | 1 attempt(s), 12s | dataset 43/100 | est. cost this run $9.75
+21:04:33 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:04:33 | INFO    | [ 40/96] img_0043 train      moderate_foam ✓ | 1 attempt(s), 13s | dataset 44/100 | est. cost this run $10.00
+21:04:46 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:04:46 | INFO    | [ 41/96] img_0044 train      moderate_foam ✓ | 1 attempt(s), 12s | dataset 45/100 | est. cost this run $10.25
+21:04:59 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:04:59 | INFO    | [ 42/96] img_0045 train      moderate_foam ✓ | 1 attempt(s), 12s | dataset 46/100 | est. cost this run $10.50
+21:05:13 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:05:13 | INFO    | [ 43/96] img_0047 train      heavy_foam    ✓ | 1 attempt(s), 13s | dataset 47/100 | est. cost this run $10.75
+21:05:28 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:05:28 | INFO    | [ 44/96] img_0048 train      heavy_foam    ✓ | 1 attempt(s), 14s | dataset 48/100 | est. cost this run $11.00
+21:05:41 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:05:41 | INFO    | [ 45/96] img_0049 train      heavy_foam    ✓ | 1 attempt(s), 12s | dataset 49/100 | est. cost this run $11.25
+21:05:53 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:05:54 | INFO    | [ 46/96] img_0050 train      heavy_foam    ✓ | 1 attempt(s), 12s | dataset 50/100 | est. cost this run $11.50
+21:06:12 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:06:13 | INFO    | [ 47/96] img_0051 train      heavy_foam    ✓ | 1 attempt(s), 18s | dataset 51/100 | est. cost this run $11.75
+21:06:25 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:06:26 | INFO    | [ 48/96] img_0052 train      heavy_foam    ✓ | 1 attempt(s), 12s | dataset 52/100 | est. cost this run $12.00
+21:06:39 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:06:40 | INFO    | [ 49/96] img_0053 train      heavy_foam    ✓ | 1 attempt(s), 13s | dataset 53/100 | est. cost this run $12.25
+21:06:53 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:06:54 | INFO    | [ 50/96] img_0054 train      heavy_foam    ✓ | 1 attempt(s), 13s | dataset 54/100 | est. cost this run $12.50
+21:07:07 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:07:07 | INFO    | [ 51/96] img_0055 train      heavy_foam    ✓ | 1 attempt(s), 12s | dataset 55/100 | est. cost this run $12.75
+21:07:20 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:07:20 | INFO    | [ 52/96] img_0056 train      heavy_foam    ✓ | 1 attempt(s), 11s | dataset 56/100 | est. cost this run $13.00
+21:07:32 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:07:32 | INFO    | [ 53/96] img_0057 train      heavy_foam    ✓ | 1 attempt(s), 11s | dataset 57/100 | est. cost this run $13.25
+21:07:47 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:07:47 | INFO    | [ 54/96] img_0058 train      heavy_foam    ✓ | 1 attempt(s), 14s | dataset 58/100 | est. cost this run $13.50
+21:08:03 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:08:03 | INFO    | [ 55/96] img_0059 train      heavy_foam    ✓ | 1 attempt(s), 15s | dataset 59/100 | est. cost this run $13.75
+21:08:16 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:08:17 | INFO    | [ 56/96] img_0060 train      heavy_foam    ✓ | 1 attempt(s), 13s | dataset 60/100 | est. cost this run $14.00
+21:08:29 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:08:29 | INFO    | [ 57/96] img_0061 validation no_foam       ✓ | 1 attempt(s), 11s | dataset 61/100 | est. cost this run $14.25
+21:08:43 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:08:43 | INFO    | [ 58/96] img_0062 validation no_foam       ✓ | 1 attempt(s), 13s | dataset 62/100 | est. cost this run $14.50
+21:08:56 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:08:56 | INFO    | [ 59/96] img_0063 validation no_foam       ✓ | 1 attempt(s), 12s | dataset 63/100 | est. cost this run $14.75
+21:09:11 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:09:12 | INFO    | [ 60/96] img_0064 validation no_foam       ✓ | 1 attempt(s), 15s | dataset 64/100 | est. cost this run $15.00
+21:09:26 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:09:27 | INFO    | [ 61/96] img_0065 validation no_foam       ✓ | 1 attempt(s), 14s | dataset 65/100 | est. cost this run $15.25
+21:09:42 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:09:42 | INFO    | [ 62/96] img_0066 validation minimal_foam  ✓ | 1 attempt(s), 14s | dataset 66/100 | est. cost this run $15.50
+21:09:55 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:09:55 | INFO    | [ 63/96] img_0067 validation minimal_foam  ✓ | 1 attempt(s), 12s | dataset 67/100 | est. cost this run $15.75
+21:10:10 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:10:10 | INFO    | [ 64/96] img_0068 validation minimal_foam  ✓ | 1 attempt(s), 14s | dataset 68/100 | est. cost this run $16.00
+21:10:22 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:10:23 | INFO    | [ 65/96] img_0069 validation minimal_foam  ✓ | 1 attempt(s), 12s | dataset 69/100 | est. cost this run $16.25
+21:10:38 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:10:38 | INFO    | [ 66/96] img_0070 validation minimal_foam  ✓ | 1 attempt(s), 15s | dataset 70/100 | est. cost this run $16.50
+21:10:53 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:10:53 | INFO    | [ 67/96] img_0071 validation moderate_foam ✓ | 1 attempt(s), 14s | dataset 71/100 | est. cost this run $16.75
+21:11:06 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:11:06 | INFO    | [ 68/96] img_0072 validation moderate_foam ✓ | 1 attempt(s), 12s | dataset 72/100 | est. cost this run $17.00
+21:11:19 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:11:20 | INFO    | [ 69/96] img_0073 validation moderate_foam ✓ | 1 attempt(s), 13s | dataset 73/100 | est. cost this run $17.25
+21:11:32 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:11:32 | INFO    | [ 70/96] img_0074 validation moderate_foam ✓ | 1 attempt(s), 12s | dataset 74/100 | est. cost this run $17.50
+21:11:46 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:11:47 | INFO    | [ 71/96] img_0075 validation moderate_foam ✓ | 1 attempt(s), 14s | dataset 75/100 | est. cost this run $17.75
+21:12:01 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:12:01 | INFO    | [ 72/96] img_0076 validation heavy_foam    ✓ | 1 attempt(s), 13s | dataset 76/100 | est. cost this run $18.00
+21:12:15 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:12:16 | INFO    | [ 73/96] img_0077 validation heavy_foam    ✓ | 1 attempt(s), 13s | dataset 77/100 | est. cost this run $18.25
+21:12:30 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:12:30 | INFO    | [ 74/96] img_0078 validation heavy_foam    ✓ | 1 attempt(s), 13s | dataset 78/100 | est. cost this run $18.50
+21:12:44 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:12:45 | INFO    | [ 75/96] img_0079 validation heavy_foam    ✓ | 1 attempt(s), 14s | dataset 79/100 | est. cost this run $18.75
+21:12:59 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:12:59 | INFO    | [ 76/96] img_0080 validation heavy_foam    ✓ | 1 attempt(s), 13s | dataset 80/100 | est. cost this run $19.00
+21:13:14 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:13:14 | INFO    | [ 77/96] img_0081 test       no_foam       ✓ | 1 attempt(s), 14s | dataset 81/100 | est. cost this run $19.25
+21:13:28 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:13:28 | INFO    | [ 78/96] img_0082 test       no_foam       ✓ | 1 attempt(s), 13s | dataset 82/100 | est. cost this run $19.50
+21:13:41 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:13:42 | INFO    | [ 79/96] img_0083 test       no_foam       ✓ | 1 attempt(s), 13s | dataset 83/100 | est. cost this run $19.75
+21:13:53 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:13:54 | INFO    | [ 80/96] img_0084 test       no_foam       ✓ | 1 attempt(s), 11s | dataset 84/100 | est. cost this run $20.00
+21:14:07 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:14:07 | INFO    | [ 81/96] img_0085 test       no_foam       ✓ | 1 attempt(s), 12s | dataset 85/100 | est. cost this run $20.25
+21:14:20 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:14:20 | INFO    | [ 82/96] img_0086 test       minimal_foam  ✓ | 1 attempt(s), 12s | dataset 86/100 | est. cost this run $20.50
+21:14:33 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:14:34 | INFO    | [ 83/96] img_0087 test       minimal_foam  ✓ | 1 attempt(s), 12s | dataset 87/100 | est. cost this run $20.75
+21:14:49 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:14:49 | INFO    | [ 84/96] img_0088 test       minimal_foam  ✓ | 1 attempt(s), 15s | dataset 88/100 | est. cost this run $21.00
+21:15:03 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:15:03 | INFO    | [ 85/96] img_0089 test       minimal_foam  ✓ | 1 attempt(s), 13s | dataset 89/100 | est. cost this run $21.25
+21:15:15 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:15:16 | INFO    | [ 86/96] img_0090 test       minimal_foam  ✓ | 1 attempt(s), 11s | dataset 90/100 | est. cost this run $21.50
+21:15:29 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:15:29 | INFO    | [ 87/96] img_0091 test       moderate_foam ✓ | 1 attempt(s), 12s | dataset 91/100 | est. cost this run $21.75
+21:15:42 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:15:42 | INFO    | [ 88/96] img_0092 test       moderate_foam ✓ | 1 attempt(s), 12s | dataset 92/100 | est. cost this run $22.00
+21:15:57 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:15:57 | INFO    | [ 89/96] img_0093 test       moderate_foam ✓ | 1 attempt(s), 14s | dataset 93/100 | est. cost this run $22.25
+21:16:09 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:16:10 | INFO    | [ 90/96] img_0094 test       moderate_foam ✓ | 1 attempt(s), 11s | dataset 94/100 | est. cost this run $22.50
+21:16:23 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:16:24 | INFO    | [ 91/96] img_0095 test       moderate_foam ✓ | 1 attempt(s), 13s | dataset 95/100 | est. cost this run $22.75
+21:16:36 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:16:36 | INFO    | [ 92/96] img_0096 test       heavy_foam    ✓ | 1 attempt(s), 12s | dataset 96/100 | est. cost this run $23.00
+21:16:50 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:16:50 | INFO    | [ 93/96] img_0097 test       heavy_foam    ✓ | 1 attempt(s), 13s | dataset 97/100 | est. cost this run $23.25
+21:17:04 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:17:05 | INFO    | [ 94/96] img_0098 test       heavy_foam    ✓ | 1 attempt(s), 14s | dataset 98/100 | est. cost this run $23.50
+21:17:18 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:17:18 | INFO    | [ 95/96] img_0099 test       heavy_foam    ✓ | 1 attempt(s), 12s | dataset 99/100 | est. cost this run $23.75
+21:17:33 | INFO    | HTTP Request: POST https://api.openai.com/v1/images/edits "HTTP/1.1 200 OK"
+21:17:33 | INFO    | [ 96/96] img_0100 test       heavy_foam    ✓ | 1 attempt(s), 14s | dataset 100/100 | est. cost this run $24.00
+21:17:44 | INFO    | Saved validation report → metadata/validation_report.csv

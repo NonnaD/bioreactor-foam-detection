@@ -1,0 +1,12 @@
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Local-only artifacts
+archive/
+*.part
+.DS_Store
